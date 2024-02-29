@@ -13,8 +13,8 @@ s.all('/', (req, res) => {
   res.send("Ready Dek") 
  })
 
-s.listen(4020, () => { 
-  console.log("Port : 4020") 
+s.listen(8080, () => { 
+  console.log("Port : 8080") 
  })
 
 client.on('ready', async () => {
